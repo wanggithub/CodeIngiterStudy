@@ -1,0 +1,40 @@
+#headerSlide{
+	position: relative;
+	width:500px;
+	height:300px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.slide-nav{
+	height:1em;
+	overflow:hidden;
+	
+}
+
+.slide-nav div{
+	display:block;
+	float:left;
+	width:100%;
+	height:20px;
+	text-align:center;
+	
+}
+
+.slide-con{
+	position:relative;
+	width:500px;
+	height:300px;
+	overflow:hidden;
+}
+
+.slide-con .item{
+	display:none;
+	width:500px;
+	height:300px;
+	text-align: center;
+}
+
+.item a{
+	text-decoration:none;
+}

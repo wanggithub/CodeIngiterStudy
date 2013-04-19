@@ -1,0 +1,6 @@
+2013/04/18 14:29:40 [emerg] 7332#8012: CreateFile() "E:\phpnginx\test1/conf/mime.types" failed (2: The system cannot find the file specified) in E:\phpnginx\test1/conf/nginx.conf:18
+2013/04/18 14:30:27 [emerg] 6424#5932: unknown log format "main" in E:\phpnginx\test1/conf/nginx.conf:25
+2013/04/18 14:32:40 [emerg] 6084#3860: unknown log format "main" in E:\phpnginx\test1/conf/nginx.conf:41
+2013/04/18 14:33:21 [emerg] 7592#5416: CreateDirectory() "E:\phpnginx\test1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2013/04/18 14:37:52 [emerg] 3304#684: CreateDirectory() "E:\phpnginx\test1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2013/04/18 14:40:47 [error] 3188#3600: *1 CreateFile() "E:\phpnginx\test1/html/index" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"

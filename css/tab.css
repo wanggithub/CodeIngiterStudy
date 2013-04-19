@@ -1,0 +1,22 @@
+
+
+
+
+
+body{ font-size:100%; font-family:"Microsoft YaHei","Arial"; background:#fff;height:100%;}
+#nav{ position:relative; width:100%; _width:835px; margin:100px auto 0 auto; border-bottom:2px #ddd solid;}
+#nav .nav-menu{ height:50px;}
+#nav .nav-menu a{ display:block; float:left; height:50px; padding:0 3em; line-height:50px; color:#666; font-size:16px; text-decoration:none;overflow:hidden}
+#nav .nav-current{ position:absolute; bottom:-2px; height:2px; overflow:hidden; background:#80b600;}
+.wrapper {
+width:40em;
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+.footer {
+text-align:center;
+height: 4em;
+}
