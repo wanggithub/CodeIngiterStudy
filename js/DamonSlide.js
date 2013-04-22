@@ -3,7 +3,7 @@
 	
 	$.fn.DamonSlide = function(options){
 		
-		alert(11);
+
 		//默认值
 		var defaultVal = {
 			btnClass:'.slide-nav',	/*按钮的父级Class*/
@@ -60,7 +60,14 @@
 				btn.children().hover(function(){
 					var j = $(this).index();
 					function s(){
-						i = j;
+						if(k==0){
+							i=i-1;
+						}else{
+							i=i+1;
+						}
+						if(i>len){
+							i=0;
+						}
 						judgeAnim();
 					}
 					timer=setTimeout(s,obj.delay);
@@ -69,7 +76,17 @@
 				})
 			}else{
 				btn.children().bind(evt,function(){
-					i = $(this).index();
+					var k = $(this).index();
+					if(k==0){
+						i=i-1;
+					}else{
+						i=i+1;
+					}
+					if(i>=len){
+						i=0;
+					}else if(i<0){
+						i=len-1;
+					}
 					judgeAnim();
 				})
 			}

@@ -2,7 +2,7 @@ $(function(){
 
 var $navcur = $(".nav-current");
 
-var $nav = $("#nav");
+var $nav = $("#header_nav");
 
 var current = ".current";
 
